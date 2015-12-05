@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9FC1DD15-3007-4699-AEB2-33E02526A24C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TCTopAlertViewExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CA0AA2299FFA26D52E5FE5D54BE6576EAD2D4867</key>
+		<string>https://github.com/ctc1991/TCTopAlertView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/TCTopAlertViewExample/TCTopAlertViewExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CA0AA2299FFA26D52E5FE5D54BE6576EAD2D4867</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ctc1991/TCTopAlertView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CA0AA2299FFA26D52E5FE5D54BE6576EAD2D4867</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CA0AA2299FFA26D52E5FE5D54BE6576EAD2D4867</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TCTopAlertView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

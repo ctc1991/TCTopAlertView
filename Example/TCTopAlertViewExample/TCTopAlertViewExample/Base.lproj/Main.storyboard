@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mvW-iL-eg7">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--Vc-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="TCVc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kd9-1a-S3P">
+                                <rect key="frame" x="145" y="167" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="成功">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="success:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nvf-OO-LxM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXm-w9-MTj">
+                                <rect key="frame" x="145" y="254" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="警告">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="warning:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JXy-CZ-swa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yBC-Re-M5z">
+                                <rect key="frame" x="145" y="343" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="错误">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="error:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="K4y-gQ-NTM"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="今天天气不错" borderStyle="roundedRect" placeholder="输入点啥？" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nWq-Ts-sDF">
+                                <rect key="frame" x="68" y="108" width="184" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="QMZ-XF-czR"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nWq-Ts-sDF" secondAttribute="trailing" constant="68" id="5f4-MV-fcU"/>
+                            <constraint firstAttribute="centerX" secondItem="UXm-w9-MTj" secondAttribute="centerX" id="8ah-Rs-zAk"/>
+                            <constraint firstItem="nWq-Ts-sDF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="68" id="F5v-A6-WH9"/>
+                            <constraint firstItem="nWq-Ts-sDF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="88" id="GQ3-Ca-muL"/>
+                            <constraint firstItem="UXm-w9-MTj" firstAttribute="top" secondItem="kd9-1a-S3P" secondAttribute="bottom" constant="57" id="HsQ-3Y-p5R"/>
+                            <constraint firstItem="kd9-1a-S3P" firstAttribute="top" secondItem="nWq-Ts-sDF" secondAttribute="bottom" constant="29" id="IX4-yK-3fU"/>
+                            <constraint firstAttribute="centerX" secondItem="yBC-Re-M5z" secondAttribute="centerX" id="fHe-aF-Rft"/>
+                            <constraint firstItem="yBC-Re-M5z" firstAttribute="top" secondItem="UXm-w9-MTj" secondAttribute="bottom" constant="59" id="nZI-Ya-hDe"/>
+                            <constraint firstItem="kd9-1a-S3P" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="145" id="psg-w3-dwT"/>
+                            <constraint firstAttribute="trailing" secondItem="kd9-1a-S3P" secondAttribute="trailing" constant="145" id="w4e-Xx-Gbx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="2oi-Z9-heu"/>
+                    <connections>
+                        <outlet property="textField" destination="nWq-Ts-sDF" id="5vL-cy-yxX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="496" y="349"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xyK-pk-3xg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mvW-iL-eg7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hHV-gv-dtE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="UpO-PZ-ahV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tnE-W3-15x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="360"/>
+        </scene>
+    </scenes>
+</document>

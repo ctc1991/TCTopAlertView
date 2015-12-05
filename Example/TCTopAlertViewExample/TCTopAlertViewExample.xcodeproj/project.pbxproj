@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68301B031AFB95F900B46892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68301B021AFB95F900B46892 /* main.m */; };
+		68301B061AFB95F900B46892 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68301B051AFB95F900B46892 /* AppDelegate.m */; };
+		68301B0C1AFB95F900B46892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68301B0A1AFB95F900B46892 /* Main.storyboard */; };
+		68301B0E1AFB95F900B46892 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68301B0D1AFB95F900B46892 /* Images.xcassets */; };
+		68301B111AFB95F900B46892 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68301B0F1AFB95F900B46892 /* LaunchScreen.xib */; };
+		68301B1D1AFB95F900B46892 /* TCTopAlertViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68301B1C1AFB95F900B46892 /* TCTopAlertViewExampleTests.m */; };
+		68301B281AFB962000B46892 /* TCVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 68301B271AFB962000B46892 /* TCVc.m */; };
+		68301B2C1AFB963800B46892 /* TCTopAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68301B2B1AFB963800B46892 /* TCTopAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68301B171AFB95F900B46892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68301AF51AFB95F900B46892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68301AFC1AFB95F900B46892;
+			remoteInfo = TCTopAlertViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68301AFD1AFB95F900B46892 /* TCTopAlertViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCTopAlertViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68301B011AFB95F900B46892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68301B021AFB95F900B46892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68301B041AFB95F900B46892 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68301B051AFB95F900B46892 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68301B0B1AFB95F900B46892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68301B0D1AFB95F900B46892 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68301B101AFB95F900B46892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		68301B161AFB95F900B46892 /* TCTopAlertViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCTopAlertViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68301B1B1AFB95F900B46892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68301B1C1AFB95F900B46892 /* TCTopAlertViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTopAlertViewExampleTests.m; sourceTree = "<group>"; };
+		68301B261AFB962000B46892 /* TCVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCVc.h; sourceTree = "<group>"; };
+		68301B271AFB962000B46892 /* TCVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCVc.m; sourceTree = "<group>"; };
+		68301B2A1AFB963800B46892 /* TCTopAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCTopAlertView.h; sourceTree = "<group>"; };
+		68301B2B1AFB963800B46892 /* TCTopAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCTopAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68301AFA1AFB95F900B46892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68301B131AFB95F900B46892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68301AF41AFB95F900B46892 = {
+			isa = PBXGroup;
+			children = (
+				68301AFF1AFB95F900B46892 /* TCTopAlertViewExample */,
+				68301B191AFB95F900B46892 /* TCTopAlertViewExampleTests */,
+				68301AFE1AFB95F900B46892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68301AFE1AFB95F900B46892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68301AFD1AFB95F900B46892 /* TCTopAlertViewExample.app */,
+				68301B161AFB95F900B46892 /* TCTopAlertViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68301AFF1AFB95F900B46892 /* TCTopAlertViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				68301B291AFB963800B46892 /* TCTopAlertView */,
+				68301B041AFB95F900B46892 /* AppDelegate.h */,
+				68301B051AFB95F900B46892 /* AppDelegate.m */,
+				68301B0A1AFB95F900B46892 /* Main.storyboard */,
+				68301B261AFB962000B46892 /* TCVc.h */,
+				68301B271AFB962000B46892 /* TCVc.m */,
+				68301B0D1AFB95F900B46892 /* Images.xcassets */,
+				68301B0F1AFB95F900B46892 /* LaunchScreen.xib */,
+				68301B001AFB95F900B46892 /* Supporting Files */,
+			);
+			path = TCTopAlertViewExample;
+			sourceTree = "<group>";
+		};
+		68301B001AFB95F900B46892 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68301B011AFB95F900B46892 /* Info.plist */,
+				68301B021AFB95F900B46892 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68301B191AFB95F900B46892 /* TCTopAlertViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				68301B1C1AFB95F900B46892 /* TCTopAlertViewExampleTests.m */,
+				68301B1A1AFB95F900B46892 /* Supporting Files */,
+			);
+			path = TCTopAlertViewExampleTests;
+			sourceTree = "<group>";
+		};
+		68301B1A1AFB95F900B46892 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68301B1B1AFB95F900B46892 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68301B291AFB963800B46892 /* TCTopAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				68CF0FE51AFDD075002C0EEE /* Resources */,
+				68301B2A1AFB963800B46892 /* TCTopAlertView.h */,
+				68301B2B1AFB963800B46892 /* TCTopAlertView.m */,
+			);
+			name = TCTopAlertView;
+			path = ../../../TCTopAlertView;
+			sourceTree = "<group>";
+		};
+		68CF0FE51AFDD075002C0EEE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68301AFC1AFB95F900B46892 /* TCTopAlertViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68301B201AFB95F900B46892 /* Build configuration list for PBXNativeTarget "TCTopAlertViewExample" */;
+			buildPhases = (
+				68301AF91AFB95F900B46892 /* Sources */,
+				68301AFA1AFB95F900B46892 /* Frameworks */,
+				68301AFB1AFB95F900B46892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCTopAlertViewExample;
+			productName = TCTopAlertViewExample;
+			productReference = 68301AFD1AFB95F900B46892 /* TCTopAlertViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68301B151AFB95F900B46892 /* TCTopAlertViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68301B231AFB95F900B46892 /* Build configuration list for PBXNativeTarget "TCTopAlertViewExampleTests" */;
+			buildPhases = (
+				68301B121AFB95F900B46892 /* Sources */,
+				68301B131AFB95F900B46892 /* Frameworks */,
+				68301B141AFB95F900B46892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68301B181AFB95F900B46892 /* PBXTargetDependency */,
+			);
+			name = TCTopAlertViewExampleTests;
+			productName = TCTopAlertViewExampleTests;
+			productReference = 68301B161AFB95F900B46892 /* TCTopAlertViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68301AF51AFB95F900B46892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Tc;
+				TargetAttributes = {
+					68301AFC1AFB95F900B46892 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					68301B151AFB95F900B46892 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 68301AFC1AFB95F900B46892;
+					};
+				};
+			};
+			buildConfigurationList = 68301AF81AFB95F900B46892 /* Build configuration list for PBXProject "TCTopAlertViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68301AF41AFB95F900B46892;
+			productRefGroup = 68301AFE1AFB95F900B46892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68301AFC1AFB95F900B46892 /* TCTopAlertViewExample */,
+				68301B151AFB95F900B46892 /* TCTopAlertViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68301AFB1AFB95F900B46892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68301B0C1AFB95F900B46892 /* Main.storyboard in Resources */,
+				68301B111AFB95F900B46892 /* LaunchScreen.xib in Resources */,
+				68301B0E1AFB95F900B46892 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68301B141AFB95F900B46892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68301AF91AFB95F900B46892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68301B2C1AFB963800B46892 /* TCTopAlertView.m in Sources */,
+				68301B061AFB95F900B46892 /* AppDelegate.m in Sources */,
+				68301B281AFB962000B46892 /* TCVc.m in Sources */,
+				68301B031AFB95F900B46892 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68301B121AFB95F900B46892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68301B1D1AFB95F900B46892 /* TCTopAlertViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68301B181AFB95F900B46892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68301AFC1AFB95F900B46892 /* TCTopAlertViewExample */;
+			targetProxy = 68301B171AFB95F900B46892 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68301B0A1AFB95F900B46892 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68301B0B1AFB95F900B46892 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68301B0F1AFB95F900B46892 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68301B101AFB95F900B46892 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68301B1E1AFB95F900B46892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68301B1F1AFB95F900B46892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68301B211AFB95F900B46892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tian Cong Cheng (93QGH648M2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tian Cong Cheng (93QGH648M2)";
+				INFOPLIST_FILE = TCTopAlertViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d9a2af9b-c6cd-4f31-b60f-2fa0f7aa095c";
+			};
+			name = Debug;
+		};
+		68301B221AFB95F900B46892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tian Cong Cheng (93QGH648M2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tian Cong Cheng (93QGH648M2)";
+				INFOPLIST_FILE = TCTopAlertViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "218b93da-8a78-4914-8870-90f8c60e6ee9";
+			};
+			name = Release;
+		};
+		68301B241AFB95F900B46892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TCTopAlertViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCTopAlertViewExample.app/TCTopAlertViewExample";
+			};
+			name = Debug;
+		};
+		68301B251AFB95F900B46892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TCTopAlertViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCTopAlertViewExample.app/TCTopAlertViewExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68301AF81AFB95F900B46892 /* Build configuration list for PBXProject "TCTopAlertViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68301B1E1AFB95F900B46892 /* Debug */,
+				68301B1F1AFB95F900B46892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68301B201AFB95F900B46892 /* Build configuration list for PBXNativeTarget "TCTopAlertViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68301B211AFB95F900B46892 /* Debug */,
+				68301B221AFB95F900B46892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68301B231AFB95F900B46892 /* Build configuration list for PBXNativeTarget "TCTopAlertViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68301B241AFB95F900B46892 /* Debug */,
+				68301B251AFB95F900B46892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68301AF51AFB95F900B46892 /* Project object */;
+}
